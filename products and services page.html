@@ -1,0 +1,208 @@
+<! doctype html>
+<html lang="en"
+<head>
+	<meta charset= "utf-8">
+      <title> Products and Services Page </title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+      <style type="text/css">
+
+    /* Basic Styling */
+  html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   font-family: 'poppins', sans-serif;
+}
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  background:#eedd82;
+}
+
+/* Columns */
+.left-column {
+  width: 65%;
+  position: relative;
+}
+ 
+.right-column {
+  width: 45%;
+  margin-top: 50px;
+}
+/* Left Column */
+.left-column img {
+  width: 90%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+ 
+.left-column img.active {
+  opacity: 1;
+
+* Product Description */
+ .product-description {
+  border-bottom: 1px solid ##30D5C8;
+  margin-bottom: 30px;
+}
+.product-description span {
+  font-size: 14px;
+  color:#808000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-description h1 {
+  font-weight: 30;
+  font-size: 20px;
+  color: #A52A2A;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight:30;
+  color: #800000;
+  line-height: 25px;
+}
+
+/* Product Color */
+.product-color {
+  margin-bottom: 30px;
+}
+ 
+.color-choose div {
+  display: inline-block;
+}
+ 
+.color-choose input[type=&amp;quot;radio&amp;quot;] {
+  display: none;
+}
+ 
+.color-choose input[type=&amp;quot;radio&amp;quot;] + label span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+}
+ 
+.color-choose input[type=&amp;quot;radio&amp;quot;] + label span {
+  border: 2px solid ;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+}
+ 
+.color-choose input[type=&amp;quot;radio&amp;quot;]#red + label span {
+  background-color: #C91524;
+}
+.color-choose input[type=&amp;quot;radio&amp;quot;]#blue + label span {
+  background-color: #314780;
+}
+.color-choose input[type=&amp;quot;radio&amp;quot;]#black + label span {
+  background-color: #323232;
+}
+ 
+.color-choose input[type=&amp;quot;radio&amp;quot;]:checked + label span {
+  background-image:#ADD8E6
+  background-repeat: no-repeat;
+  background-position: center;
+}
+</style>
+
+</head>
+  <body>
+
+  <main class="container">
+ 
+  <!-- Left Column / Optical Products Image -->
+  <div class="left-column">
+    <img data-image="" src="images/" alt="">
+    <img data-image="" src="images/" alt="">
+    <img data-image="" class="active" src="images/" alt="">
+  </div>
+
+
+<!-- Right Column -->
+  <div class="right-column">
+ 
+    <!-- Product Description -->
+    <div class="product-description">
+      <span>Optical Products</span>
+      <h1>Digital Cameras </h1>
+      <p>A digital camera counts as embedded systems. It has one main purpose and it is to take pictures. 
+      If the user wants to perform a task related to the purpose, the user can do that easily without encountering any obstacles. </p>
+
+       <h2> Optical Sensors</h2>
+        <p> An optical sensor is composed of a light source that generates electromagnetic waves, a sensing platform in which light–matter interactions occur, and a detector that identifies and quantifies spectral shifts in electromagnetic waves upon interaction with targeted analytes [1–3].</p>
+
+        <h3>Iot Based Smart App Automation Software</h3>
+        <p> Iot based Smart App automation software  consist of several smart devices for different applications of lighting, security, home entertainment etc. 
+            All these devices are integrated over a common network established by gateway and connected in a mesh network.</p>
+
+    </div>
+
+<!-- Product Configuration -->
+    <div class="product-configuration">
+
+<!--optical product Configuration -->
+      <div class="Optical product-config">
+        <span>Optical product configuration</span>
+ 
+        <div class="optical product-choose">
+          <button> IOT digital camera</button>
+          <button> Optical Sensors</button>
+          <button> Iot based smart app automation software</button>
+        </div>
+
+	</div>
+    </div>
+ 
+</main>
+ 
+ 
+ 
+        <a href="#">How to create  your optical products</a>
+           <h3> Creation of IOT Digital cameras: </h3>
+            <p> step 1 -Register and log into the APP.
+                 step 2 -Click '+' > I heard'Waiting to connect'
+                  step 3- Enter your wifi password, and then make the camera lens face to the QR code directly. ...
+                  step 4 -After connected successfully, named your camera, and it will complete.
+            </p>
+
+             <h4> Creation of Optical Sensors:</h4>
+             <p> Step 1-Solder the resistor and the LDR together.
+                 Step 2 -Solder the red, blue and black wires as demonstrated below.
+                 Step 3-Add shrink tubes at the soldering locations and 
+                  Step 4- apply heat to insulate the connections.
+                      You have yourself an optical sensor!
+            </p>
+
+              <h5> Creation of Iot Based Smart App Automation Software:</h5>
+              <p>Step 1: UI/UX design.
+		     Step 2: Front-end development.
+		     Step 3: Back-end development.
+		     Step 4: Quality assurance — automated or manual testing.
+		     Step 5: Collect users' feedback and improve your app accordingly.
+          	 </p>
+      
+
+</body>
+</html>
+ 
+ 
+
+
+       
+
+       
+ 
